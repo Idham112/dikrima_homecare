@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import TentangKamiPage from "./components/TentangKami";
 import PartnerKesehatan from "./components/PartnerKesehatan";
@@ -23,3 +24,5 @@ export default function Home() {
 		</div>
 	);
 }
+
+export default index
