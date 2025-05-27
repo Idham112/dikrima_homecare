@@ -1,8 +1,8 @@
-
 import Image from "next/image";
 import TentangKamiPage from "./components/TentangKami";
 import PartnerKesehatan from "./components/PartnerKesehatan";
 import GaleriLayananPasien from "./components/GaleriLayananPasien";
+import ProductsList from "@/components/ProductsList";
 // import { Geist, Geist_Mono } from "next/font/google";
 
 // const geistSans = Geist({
@@ -16,11 +16,12 @@ import GaleriLayananPasien from "./components/GaleriLayananPasien";
 // });
 
 export default function Home() {
-	return (
-		<div className="max-w-7xl mx-auto bg-blue-200">
-			<TentangKamiPage />
-			<PartnerKesehatan />
-			<GaleriLayananPasien />
-		</div>
-	);
+  return (
+    <div className="max-w-7xl mx-auto bg-white">
+      <ProductsList />
+      <TentangKamiPage />
+      <PartnerKesehatan />
+      <GaleriLayananPasien />
+    </div>
+  );
 }

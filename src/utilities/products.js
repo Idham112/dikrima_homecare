@@ -11,7 +11,7 @@ const products = [
     description:
       "Vaksinasi untuk dewasa dan anak - aman, tersertifikasi, dan nyaman di rumah.",
     startingPrice: 350000,
-    icon: <VaccinationIcon/>,
+    icon: <VaccinationIcon />,
     items: [
       {
         productName: "Influenza 3 Strain (Flubio)",
@@ -78,7 +78,7 @@ const products = [
     description:
       "Infus atau injeksi vitamin untuk meningkatkan daya tahan tubuh dan energi",
     startingPrice: 400000,
-    icon: <VitaminIcon/>,
+    icon: <VitaminIcon />,
     items: [
       {
         productName: "Injeksi Vitamin B Kompleks",
@@ -129,13 +129,28 @@ const products = [
     description:
       "Pemeriksaan menyeluruh oleh dokter profesional langsung di rumah Anda.",
     startingPrice: 350000,
-    icon: <MedicalIcon/>,
+    icon: <MedicalIcon />,
     items: [
       {
-        productName: "-",
-        price: 0,
+        productName: "Lorem Ipsum Check-Up A",
+        price: 999999,
       },
-
+      {
+        productName: "Lorem Ipsum Check-Up B",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Check-Up C",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Check-Up D",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Check-Up E",
+        price: 999999,
+      },
       // Add more vaccinations here
     ],
   },
@@ -145,11 +160,27 @@ const products = [
     description:
       "Perawatan infus atau injeksi untuk kulit sehat, cerah, dan bercahaya.",
     startingPrice: 500000,
-    icon: <VitaminIcon/>,
+    icon: <VitaminIcon />,
     items: [
       {
-        productName: "-",
-        price: 0,
+        productName: "Lorem Ipsum Glow Infusion",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Hydra Boost",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Collagen Shot",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Whitening Therapy",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Detox Drip",
+        price: 999999,
       },
 
       // Add more vaccinations here
@@ -161,11 +192,27 @@ const products = [
     description:
       "Terapi regeneratif berbasis stemcell untuk pemulihan dan anti-aging.",
     startingPrice: 2500000,
-    icon: <SecretomeIcon/>,
+    icon: <SecretomeIcon />,
     items: [
       {
-        productName: "-",
-        price: 0,
+        productName: "Lorem Ipsum Stemcell A",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Stemcell B",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Stemcell C",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Stemcell D",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Stemcell E",
+        price: 999999,
       },
 
       // Add more vaccinations here
@@ -177,11 +224,27 @@ const products = [
     description:
       "Konsultasi Dokter secaraw online untuk diagnosa cepat dan rekomendasi perawatan.",
     startingPrice: 150000,
-    icon: <TelemedicineIcon/>,
+    icon: <TelemedicineIcon />,
     items: [
       {
-        productName: "-",
-        price: 0,
+        productName: "Lorem Ipsum GP Consultation",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Specialist Consult",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Pediatric Advice",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Mental Health",
+        price: 999999,
+      },
+      {
+        productName: "Lorem Ipsum Nutrition Consult",
+        price: 999999,
       },
 
       // Add more vaccinations here
