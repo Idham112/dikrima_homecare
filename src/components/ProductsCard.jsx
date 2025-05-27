@@ -1,6 +1,8 @@
 import React from "react";
+import ProductPriceSheet from "./ProductPriceSheet";
 
 function ProductsCard({ product }) {
+  const [open, setOpen] = React.useState(false);
   return (
     <div className="px-4 md:px-9 py-5 md:py-14 flex flex-col gap-4">
       <div className="w-11 h-11 bg-emerald-200 rounded-xl flex justify-center items-center text-emerald-500">
@@ -23,12 +25,7 @@ function ProductsCard({ product }) {
         </h2>
       </div>
       <div className=" flex flex-col justify-center items-center gap-2 md:flex-row md:gap-7">
-        <a
-          href="#"
-          className="whitespace-nowrap text-xs md:text-sm text-center md:text-start font-semibold text-[#0BB75E] hover:text-[#71e4a9] hover:underline cursor-pointer py-[10px]"
-        >
-          Lihat Daftar Harga
-        </a>
+        <ProductPriceSheet open={open} setOpen={setOpen} product={product} />
         <a
           href="#"
           className="w-full text-xs md:text-sm text-center font-semibold border-[1.5px] rounded-xl border-[#3D5F5A] text-[#3D5F5A] py-[10px] transition-colors duration-200 hover:bg-[#3D5F5A] hover:text-white"
