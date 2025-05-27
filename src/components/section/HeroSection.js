@@ -7,13 +7,15 @@ function HeroSection() {
     <section className={'relative max-w-[1024px] mx-auto mt-6  md:mt-16'}>
       <Image
         src={'/imageLeft.png'}
-        className={'hidden absolute md:block md:-left-[350px]'}
+        className={'hidden absolute md:block md:-left-[300px] h-[350px] w-auto'}
         width={325}
         height={400}
       />
       <Image
         src={'/imageRight.png'}
-        className={'hidden absolute md:block md:-right-[350px]'}
+        className={
+          'hidden absolute md:block md:-right-[300px] h-[350px] w-auto'
+        }
         width={325}
         height={400}
       />
