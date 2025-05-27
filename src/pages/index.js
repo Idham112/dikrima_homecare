@@ -1,27 +1,30 @@
+import Image from 'next/image';
+import WhySection from '@/components/section/WhySection';
+import Container from '@/components/common/Container';
+import NavigationBar from '@/components/navigation/NavigationBar';
+import HeroSection from '@/components/section/HeroSection';
+import SocialProofSection from '@/components/section/SocialProofSection';
 import Image from "next/image";
 import TentangKamiPage from "./components/TentangKami";
 import PartnerKesehatan from "./components/PartnerKesehatan";
 import GaleriLayananPasien from "./components/GaleriLayananPasien";
 import ProductsList from "@/components/ProductsList";
-// import { Geist, Geist_Mono } from "next/font/google";
-
-// const geistSans = Geist({
-// 	variable: "--font-geist-sans",
-// 	subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-// 	variable: "--font-geist-mono",
-// 	subsets: ["latin"],
-// });
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto bg-white">
-      <ProductsList />
-      <TentangKamiPage />
+    <>
+     <Container>
+      <NavigationBar />
+      <HeroSection />
+    <ProductsList />
+      <SocialProofSection />
+      <WhySection />
+    </Container>
+     <TentangKamiPage />
       <PartnerKesehatan />
       <GaleriLayananPasien />
-    </div>
+    </>
+   
+
   );
 }
