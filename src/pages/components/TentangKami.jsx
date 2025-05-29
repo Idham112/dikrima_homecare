@@ -6,6 +6,7 @@ import {
   partnerKesehatan,
   testimony,
 } from '../utilties/tentangkami';
+import Button from '@/components/common/Button';
 
 const TentangKamiPage = () => {
   return (
@@ -25,12 +26,18 @@ const TentangKamiPage = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 lg:gap-10 justify-center lg:justify-start">
-            <button className="w-full text-[#3D5f5A] sm:w-[180px] lg:w-[200px] h-12 rounded-xl border-[1.5px] gap-2.5 py-[14px] px-2.5 flex items-center justify-center text-sm lg:text-base">
-              Lihat Layanan Kami
-            </button>
-            <button className="w-full sm:w-[180px] lg:w-[200px] h-12 rounded-xl gap-[10px] pt-[14px] pr-[10px] pb-[14px] pl-[10px] bg-[#0BB75E] text-white flex items-center justify-center text-sm lg:text-base">
-              Booking Sekarang
-            </button>
+            <Button
+              href={'#'}
+              label={'Lihat Layanan Kami'}
+              type={'outline'}
+              size={'lg'}
+            />
+            <Button
+              href={'#'}
+              label={'Booking Sekarang'}
+              type={'fill'}
+              size={'lg'}
+            />
           </div>
         </div>
       </div>

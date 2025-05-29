@@ -1,6 +1,6 @@
 // components/ProductPriceSheet.jsx
-import React from "react";
-import ProductCardSheet from "./ProductCardSheet";
+import React from 'react';
+import ProductCardSheet from './ProductCardSheet';
 import {
   Sheet,
   SheetTrigger,
@@ -8,15 +8,19 @@ import {
   SheetHeader,
   SheetTitle,
   SheetDescription,
-} from "@/components/ui/sheet";
+} from '@/components/ui/sheet';
+import Button from '@/components/common/Button';
 
 function ProductPriceSheet({ open, setOpen, product }) {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
-        <button className="w-full md:w-auto whitespace-nowrap text-xs md:text-sm text-center md:text-start font-semibold text-[#0BB75E] hover:text-[#71e4a9] hover:underline cursor-pointer py-[10px]">
-          Lihat Daftar Harga
-        </button>
+        <Button
+          className={'w-full min-w-auto'}
+          size={'sm'}
+          type={'text'}
+          label={'Lihat Daftar Harga'}
+        />
       </SheetTrigger>
       <SheetContent className="w-full min-h-screen overflow-y-auto bg-white md:max-w-[50vw]">
         <div className="px-10 pt-10 pb-20 flex flex-col gap-6">
@@ -24,16 +28,16 @@ function ProductPriceSheet({ open, setOpen, product }) {
             {product.icon}
           </div>
           <div className="flex flex-col gap-2">
-            <h2 className="font-extrabold text-[32px] text-[#3D5F5A]">
+            <h2 className="cstm-font-sans font-extrabold text-[32px] text-[#3D5F5A]">
               {product.productCategory}
             </h2>
-            <p className="text-[16px] text-[#4A4A4A]">{product.description}</p>
+            <p className="text-[#4A4A4A]">{product.description}</p>
           </div>
 
           <div>
-            <h3 className="font-bold text-xl text-[#000000]">
-              {" "}
-              Daftar harga lengkap untuk layanan{" "}
+            <h3 className="font-bold text-xl text-[#000000] mb-5">
+              {' '}
+              Daftar harga lengkap untuk layanan{' '}
               {product.productCategory.toLowerCase()}
             </h3>
             {/* cards */}
@@ -43,9 +47,9 @@ function ProductPriceSheet({ open, setOpen, product }) {
                   key={index}
                   className={`
             border border-[#C3D4D1]
-            ${index % 2 === 0 ? "border-l-0" : "border-r-0"}
-            ${index < item.length ? "border-b-0" : ""}
-            ${index === 0 || index === 1 ? "border-t-0" : ""}
+            ${index % 2 === 0 ? 'border-l-0' : 'border-r-0'}
+            ${index < item.length ? 'border-b-0' : ''}
+            ${index === 0 || index === 1 ? 'border-t-0' : ''}
           `}
                 >
                   <ProductCardSheet

@@ -40,6 +40,7 @@ function HeroSection() {
         </p>
       </div>
       <Button
+        type={'fill'}
         className={'w-full sm:w-fit mx-auto'}
         label={'Booking Sekarang'}
         href={'#'}
