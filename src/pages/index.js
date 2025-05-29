@@ -7,6 +7,9 @@ import TentangKamiPage from './components/TentangKami';
 import PartnerKesehatan from './components/PartnerKesehatan';
 import GaleriLayananPasien from './components/GaleriLayananPasien';
 import ProductsList from '@/components/ProductsList';
+import ContactBanner from '@/components/ContactBanner';
+import Faq from './components/Faq'
+import Footer from '@/components/navigation/Footer';
 
 export default function Home() {
   return (
@@ -21,6 +24,9 @@ export default function Home() {
       <TentangKamiPage />
       <PartnerKesehatan />
       <GaleriLayananPasien />
+      <ContactBanner />
+      <Faq />
+      <Footer />
     </>
   );
 }
