@@ -34,6 +34,7 @@ function NavigationBar() {
             ))}
           </div>
           <Button
+            type={'fill'}
             className={'hidden sm:flex'}
             label={'Hubungi Whatsapp'}
             href={'#'}

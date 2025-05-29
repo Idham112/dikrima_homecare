@@ -16,7 +16,6 @@ export default function Home() {
         <HeroSection />
         <SocialProofSection />
         <ProductsList />
-
         <WhySection />
       </Container>
       <TentangKamiPage />

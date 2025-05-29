@@ -31,7 +31,7 @@ const PartnerKesehatan = () => {
 
   return (
     <div className="text-black flex flex-col md:flex-row lg:flex-row mt-30 mx-0 md:mx-20">
-      <h2 className="mr-0 text-[#3D5f5A] md:mr-30 text-[20px] md:text-2xl w-full md:w-[196px] mb-6 md:mb-0 text-center md:text-left">
+      <h2 className="font-bold mr-0 text-[#3D5f5A] md:mr-30 text-[20px] md:text-2xl w-full md:w-[196px] mb-6 md:mb-0 text-center md:text-left">
         Partner Kesehatan Kami
       </h2>
 
