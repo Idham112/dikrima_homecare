@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer className="bg-[#F1FFFD] w-full py-8 px-4 md:px-8 my-[54px]">
-      <div className="container mx-auto flex flex-col md:flex-row justify-center items-center md:items-start gap-8">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8">
         {/* Div Kiri Logo */}
         <div className="flex-shrink-0">
           <Image
@@ -19,16 +19,16 @@ const Footer = () => {
         </div>
 
         {/* Div Kanan: Link, Tagline, Button, Copyright */}
-        <div className="flex flex-col w-full md:w-auto">
+        <div className="flex flex-col w-full">
           {/* Links + Social */}
-          <div className="flex flex-col md:flex-row justify-between items-center md:items-start w-full md:w-auto gap-4 md:gap-0 mb-5 md:mb-8">
+          <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start w-full md:w-auto gap-4 lg:gap-0 mb-5 md:mb-8">
             <div>
-              <p className="flex flex-wrap justify-center md:justify-start gap-5 items-center text-dark-green text-sm">
+              <div className="flex flex-wrap justify-center md:justify-start gap-5 items-center text-dark-green text-sm">
                 {linkList.map((link, index) => (
                   <React.Fragment key={link.label}>
                     <a
                       href={link.href}
-                      className="hover:text-primary-green transition duration-200"
+                      className="cstm-font-sans hover:text-primary-green transition duration-200"
                     >
                       {link.label}
                     </a>
@@ -40,7 +40,7 @@ const Footer = () => {
                     )}
                   </React.Fragment>
                 ))}
-              </p>
+              </div>
             </div>
 
             <div className="flex gap-6">
@@ -78,9 +78,9 @@ const Footer = () => {
           <div className="h-px w-full bg-[#C3D4D1] mb-5"></div>
 
           {/* Tagline + Button + Copyright */}
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="flex flex-col sm:flex-row items-center gap-[27px] w-full md:w-auto">
-              <p className="font-bold text-sm text-teal-900 text-center sm:text-left">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
+            <div className="flex flex-col lg:flex-row items-center gap-[27px] w-full md:w-auto">
+              <p className="font-bold text-sm text-teal-900 text-center sm:text-left lg:max-w-[200px]">
                 Sehat Lebih Mudah Dimana Saja dan Kapan Saja
               </p>
               <Button
@@ -88,14 +88,14 @@ const Footer = () => {
                 className={'w-full sm:w-auto'}
                 label={'Hubungi Whatsapp'}
                 href={'#'}
+                size='lg'
               />
             </div>
-
-            <div className="text-sm text-gray-700 text-center md:text-right">
+            <div className="text-sm text-gray-700 text-center md:text-right max-w-[325px]">
               <p>
                 <strong>© 2025 Dikrima Homecare.</strong> All rights reserved.
+                Designed by LokaWeb, your digital superheroes!
               </p>
-              <p>Designed by LokaWeb, your digital superheroes!</p>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ export default function ContactBanner() {
   return (
     <section className="mx-auto max-w-7xl px-4 sm:px-6 py-6">
       <div className="bg-[#2d5c50] rounded-lg shadow-xl overflow-hidden">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 p-6 md:p-8">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 lg:gap-12 p-6 md:p-8">
           <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-6">
             <div className="bg-[#0BB75E] rounded-full h-32 w-32 md:h-24 md:w-24 lg:h-32 lg:w-32 flex-shrink-0 overflow-hidden">
               <Image
@@ -17,10 +17,10 @@ export default function ContactBanner() {
               />
             </div>
             <div className="flex flex-col justify-center text-left py-6">
-              <h2 className="text-white text-xl md:text-2xl font-semibold mb-2 max-w-md">
+              <h2 className="text-white text-xl md:text-2xl font-bold mb-2 max-w-md">
                 Kami siap menghadirkan pelayanan kesehatan ke tempat Anda
               </h2>
-              <p className="text-white text-sm">
+              <p className="text-white">
                 Yuk jangan ragu untuk hubungi Kami, Kamu bisa konsultasi dulu
                 dengan Kami
               </p>
