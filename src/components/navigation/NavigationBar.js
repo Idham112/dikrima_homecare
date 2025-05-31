@@ -11,7 +11,7 @@ function NavigationBar() {
       <div className={'flex justify-between items-center'}>
         <Logo />
         <div className={'flex gap-6 items-center lg:gap-10'}>
-          <div className={'hidden  lg:flex lg:gap-5 lg:items-center'}>
+          <div className={'hidden lg:flex lg:gap-5 lg:items-center'}>
             {linkList.map((link, index) => (
               <>
                 <a
