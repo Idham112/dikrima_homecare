@@ -37,7 +37,7 @@ function NavigationBar() {
             type={'fill'}
             className={'hidden sm:flex'}
             label={'Hubungi Whatsapp'}
-            href={'#'}
+            href="https://wa.me/6281215202124"
           />
           <MobileNavigation />
         </div>

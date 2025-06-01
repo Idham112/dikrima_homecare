@@ -1,14 +1,14 @@
 export const linkList = [
   {
     label: 'Layanan Kami',
-    href: '',
+    href: '#Layanan-Kami',
   },
   {
     label: 'Tentang Kami',
-    href: '',
+    href: '#Tentang-Kami',
   },
   {
     label: 'Galeri Pasien',
-    href: '',
+    href: '#Galeri-Pasien',
   },
 ];

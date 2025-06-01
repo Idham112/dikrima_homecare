@@ -87,8 +87,8 @@ const Footer = () => {
                 type={'fill'}
                 className={'w-full sm:w-auto'}
                 label={'Hubungi Whatsapp'}
-                href={'#'}
-                size='lg'
+                href="https://wa.me/6281215202124"
+                size="lg"
               />
             </div>
             <div className="text-sm text-gray-700 text-center md:text-right max-w-[325px]">

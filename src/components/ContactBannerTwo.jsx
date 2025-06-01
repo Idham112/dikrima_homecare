@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Button from './common/Button';
 
-export default function ContactBanner() {
+export default function ContactBannerTwo() {
   return (
     <section className="mx-auto max-w-7xl px-4 sm:px-6 py-6 mt-30">
       <div className="bg-[#2d5c50] rounded-lg shadow-xl overflow-hidden">
@@ -9,7 +9,7 @@ export default function ContactBanner() {
           <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-6">
             <div className="bg-[#0BB75E] rounded-full h-32 w-32 md:h-24 md:w-24 lg:h-32 lg:w-32 flex-shrink-0 overflow-hidden">
               <Image
-                src="/icon/Service2.svg"
+                src="/icon/doctor_male.png"
                 alt="Healthcare Professional"
                 width={200}
                 height={200}
@@ -18,7 +18,7 @@ export default function ContactBanner() {
             </div>
             <div className="flex flex-col justify-center text-left py-6">
               <h2 className="text-white text-xl md:text-2xl font-bold mb-2 max-w-md">
-                Kami siap menghadirkan pelayanan kesehatan ke tempat Anda
+                Ada pertanyaan mengenai layanan Kami?
               </h2>
               <p className="text-white">
                 Yuk jangan ragu untuk hubungi Kami, Kamu bisa konsultasi dulu

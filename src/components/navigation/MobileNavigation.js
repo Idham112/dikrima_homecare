@@ -42,7 +42,11 @@ function MobileNavigation() {
                 </>
               ))}
             </div>
-            <Button type={'fill'} label={'Hubungi Whatsapp'} href={'#'} />
+            <Button
+              type={'fill'}
+              label={'Hubungi Whatsapp'}
+              href="https://wa.me/6281215202124"
+            />
           </div>
         </SheetHeader>
       </SheetContent>
