@@ -27,11 +27,11 @@ function ProductsCard({ product }) {
         <div className=" flex flex-col justify-center items-center gap-2 md:flex-row">
           <ProductPriceSheet open={open} setOpen={setOpen} product={product} />
           <Button
-            className={'w-full min-w-auto'}
+            className={'w-full min-w-auto text-xs md:text-sm'}
             size={'sm'}
             label={'Konsultasi Layanan'}
             type={'outline'}
-            href={'#'}
+            href="https://wa.me/6281215202124"
           />
         </div>
       </div>

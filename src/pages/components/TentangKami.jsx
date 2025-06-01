@@ -27,13 +27,13 @@ const TentangKamiPage = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 lg:gap-10 justify-center lg:justify-start">
             <Button
-              href={'#'}
+              href={'#Layanan-Kami'}
               label={'Lihat Layanan Kami'}
               type={'outline'}
               size={'lg'}
             />
             <Button
-              href={'#'}
+              href="https://wa.me/6281215202124"
               label={'Booking Sekarang'}
               type={'fill'}
               size={'lg'}

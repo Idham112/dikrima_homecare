@@ -43,7 +43,7 @@ function HeroSection() {
         type={'fill'}
         className={'w-full sm:w-fit mx-auto'}
         label={'Booking Sekarang'}
-        href={'#'}
+        href="https://wa.me/6281215202124"
       />
     </section>
   );

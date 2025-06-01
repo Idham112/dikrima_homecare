@@ -8,8 +8,9 @@ import PartnerKesehatan from './components/PartnerKesehatan';
 import GaleriLayananPasien from './components/GaleriLayananPasien';
 import ProductsList from '@/components/ProductsList';
 import ContactBanner from '@/components/ContactBanner';
-import Faq from './components/Faq'
+import Faq from './components/Faq';
 import Footer from '@/components/navigation/Footer';
+import ContactBannerTwo from '@/components/ContactBannerTwo';
 
 export default function Home() {
   return (
@@ -18,12 +19,19 @@ export default function Home() {
         <NavigationBar />
         <HeroSection />
         <SocialProofSection />
-        <ProductsList />
+        <div id="Layanan-Kami">
+          <ProductsList />
+        </div>
         <WhySection />
+        <ContactBannerTwo />
       </Container>
-      <TentangKamiPage />
+      <div id="Tentang-Kami">
+        <TentangKamiPage />
+      </div>
       <PartnerKesehatan />
-      <GaleriLayananPasien />
+      <div id="Galeri-Pasien">
+        <GaleriLayananPasien />
+      </div>
       <ContactBanner />
       <Faq />
       <Footer />
