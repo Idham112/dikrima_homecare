@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductsCard from './ProductsCard';
-import products from '@/utilities/products';
+import products from '../utils/products';
 
 function ProductsList() {
   return (
