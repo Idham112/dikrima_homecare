@@ -35,34 +35,24 @@ export default function Faq() {
 
   const faqItems = [
     {
-      title: 'FAQ Title',
+      title: 'Bagaimana Proses Booking di Dikrima Homecare?',
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu volutpat lorem. Donec rhoncus nunc ac ipsum accumsan aliquam. Maecenas finibus, enim non fringilla volutpat, lorem risus molestie libero, eu aliquet quam dolor quis tortor. Suspendisse convallis bibendum nisi. Phasellus erat arcu, ultrices a ullamcorper sit amet, aliquet nec lectus. Vestibulum rhoncus dui nisi, eu fringilla elit vestibulum vel. Mauris sit amet porta tortor. Nulla sed dui iaculis, mattis velit a, semper sapien. Etiam eget felis tellus. Nullam elementum mauris et libero dignissim, quis maximus sem aliquam. Suspendisse potenti. Nulla vitae vehicula ante.',
+        'Silahkan menghubungi customer service kami melalui WhatsApp atau telepon yang tertera pada website ini atau klik "Konsultasi Layanan". Setelah itu, customer service akan membantu Anda dalam proses booking layanan yang Anda butuhkan.',
     },
     {
-      title: 'FAQ Title',
+      title: 'Apa Visi dan Misi Dikrima Homecare?',
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu volutpat lorem. Donec rhoncus nunc ac ipsum accumsan aliquam. Maecenas finibus, enim non fringilla volutpat, lorem risus molestie libero, eu aliquet quam dolor quis tortor.',
+        'Misi Kami adalah Menjadi sahabat dan mitra kesehatan pilihan masyarakat dengan pelayanan optimal secara holistik, tercaya dan professional. Sedangkan Misi kami Mewujudkan pelayanan kesehatan secara efektif serta optimal dimanapun dan kapanpun dengan memberikan lauanan yang berkualitas, nyaman, terjangkau dari segi biaya maupun waktu guna mencapai masyarakat menuju indonesia sehat.',
     },
     {
-      title: 'FAQ Title',
+      title: 'Ada Berapa Estimasi Tenaga Medis yang dimiliki Dikrima Homecare?',
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu volutpat lorem. Donec rhoncus nunc ac ipsum accumsan aliquam. Maecenas finibus, enim non fringilla volutpat, lorem risus molestie libero, eu aliquet quam dolor quis tortor. Suspendisse convallis bibendum nisi. Phasellus erat arcu, ultrices a ullamcorper sit amet, aliquet nec lectus. Vestibulum rhoncus dui nisi, eu fringilla elit vestibulum vel. Mauris sit amet porta tortor. Nulla sed dui iaculis, mattis velit a, semper sapien. Etiam eget felis tellus. Nullam elementum mauris et libero dignissim, quis maximus sem aliquam. Suspendisse potenti. Nulla vitae vehicula ante.',
+        'Saat ini kami memiliki sekitar 10 tenaga kesehatan yang ahli dan profesional (tersertifikasi) yang siap membantu anda. ',
     },
     {
-      title: 'FAQ Title',
+      title: 'Bagaimana Mengenai Harga Layanan Dikrima Homecare?',
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu volutpat lorem. Donec rhoncus nunc ac ipsum accumsan aliquam.',
-    },
-    {
-      title: 'FAQ Title',
-      content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu volutpat lorem. Donec rhoncus nunc ac ipsum accumsan aliquam. Maecenas finibus, enim non fringilla volutpat, lorem risus molestie libero, eu aliquet quam dolor quis tortor.',
-    },
-    {
-      title: 'FAQ Title',
-      content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu volutpat lorem. Donec rhoncus nunc ac ipsum accumsan aliquam. Maecenas finibus, enim non fringilla volutpat, lorem risus molestie libero.',
+        'Harga layanan kami bervariasi tergantung pada jenis layanan yang Anda butuhkan. Kami menyediakan berbagai paket layanan yang dapat dilihat pada bagian "layanan Kami", silahkan klik "Lihat Daftar Harga" atau bisa menghubungi customer service kami atau klik "Konsultasi Layanan".',
     },
   ];
 

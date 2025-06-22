@@ -45,7 +45,7 @@ const Footer = () => {
 
             <div className="flex gap-6">
               <a
-                href="http://wa.me/6281215202124"
+                href="https://wa.me/6282299299124"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -87,7 +87,7 @@ const Footer = () => {
                 type={'fill'}
                 className={'w-full sm:w-auto'}
                 label={'Hubungi Whatsapp'}
-                href="https://wa.me/6281215202124"
+                href="https://wa.me/6282299299124"
                 size="lg"
               />
             </div>

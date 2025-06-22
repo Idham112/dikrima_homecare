@@ -6,43 +6,42 @@ const GaleriLayananPasien = () => {
     {
       src: '/tentangKamiLogoRelated/testimoni_jamar_jhonson.jpeg',
       alt: 'Image 1',
-      description: 'Infus Vitamin kak @juliaviocdr oleh dr @dimasprdt',
+      description: 'Jamar Jhonson - Timnas Basket Indonesia',
     },
     {
       src: '/tentangKamiLogoRelated/testimoni_marison.jpeg',
       alt: 'Image 2',
-      description:
-        'Stem Cell-Secretome Therapy for Wellness & Fitness oleh dr Dimas',
+      description: 'H.Mafirion - Anggota DPR RI',
     },
     {
       src: '/tentangKamiLogoRelated/testimoni_milea.jpeg',
       alt: 'Image 3',
-      description: 'Infus Vitamin jaj @juliaviocdr oleh dr @dimasprdt',
+      description: 'Malea Emma - Aktris Indonesia',
     },
     {
       src: '/tentangKamiLogoRelated/testinomi_syarla_novia.jpeg',
       alt: 'Image 4',
-      description: 'Perawatan Kesehatan Premium di Rumah',
+      description: 'Syarla & Novia - Top 5 Indonesian Idol',
     },
     {
       src: '/tentangKamiLogoRelated/testimoni_taufik_hidayat.jpeg',
       alt: 'Image 5',
-      description: 'Layanan Homecare Profesional 24 Jam',
+      description: 'Taufik Hidayat - Wakil Ketua DPRD Jawa Barat',
     },
     {
       src: '/tentangKamiLogoRelated/testimoni_ranti_maria.jpeg',
       alt: 'Image 6',
-      description: 'Terapi Kesehatan Holistik di Rumah',
+      description: 'Ranty Maria - Aktris Indonesia',
     },
     {
       src: '/tentangKamiLogoRelated/testimoni_riza_irsyadillah.jpeg',
       alt: 'Image 7',
-      description: 'Perawatan Medis Terpercaya dan Nyaman',
+      description: 'Riza Irsyadillah - Aktor Indonesia',
     },
     {
       src: '/tentangKamiLogoRelated/testimoni_denny_cagur.jpeg',
       alt: 'Image 8',
-      description: 'Solusi Kesehatan Keluarga di Rumah',
+      description: 'Denny Cagur - Anggota DPR RI - Komisi X',
     },
   ];
 

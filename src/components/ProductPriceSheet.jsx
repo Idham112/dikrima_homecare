@@ -66,7 +66,7 @@ function ProductPriceSheet({ open, setOpen, product }) {
             Bingung atau ada pertanyaan?
           </h3>
           <a
-            href="https://wa.me/6281215202124"
+            href="https://wa.me/6282299299124"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#0BB75E] text-white text-xs md:text-sm font-semibold px-4 py-2 rounded-md hover:bg-[#0aa654] transition-colors"

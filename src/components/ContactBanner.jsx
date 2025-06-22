@@ -30,7 +30,7 @@ export default function ContactBanner() {
             type={'fill'}
             className="mt-4 sm:mt-0 w-full sm:w-auto flex"
             label={'Konsultasi Layanan'}
-            href="https://wa.me/6281215202124"
+            href="https://wa.me/6282299299124"
           />
         </div>
       </div>

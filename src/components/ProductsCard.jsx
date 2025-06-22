@@ -31,7 +31,7 @@ function ProductsCard({ product }) {
             size={'sm'}
             label={'Konsultasi Layanan'}
             type={'outline'}
-            href="https://wa.me/6281215202124"
+            href="https://wa.me/6282299299124"
           />
         </div>
       </div>

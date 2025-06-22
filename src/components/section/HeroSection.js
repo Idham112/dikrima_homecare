@@ -5,7 +5,7 @@ import Image from 'next/image';
 function HeroSection() {
   return (
     <section className={'relative max-w-[1024px] mx-auto mt-6  md:mt-16'}>
-      <Image
+      {/* <Image
         src={'/imageLeft.png'}
         className={'hidden absolute md:block md:-left-[300px] h-[350px] w-auto'}
         width={325}
@@ -18,7 +18,7 @@ function HeroSection() {
         }
         width={325}
         height={400}
-      />
+      /> */}
       <div className={'flex flex-col gap-4 text-center mb-10'}>
         <h4 className={'font-sans text-[#121212] text-base md:text-xl '}>
           Sehat Tanpa Harus Keluar Rumah
@@ -43,7 +43,7 @@ function HeroSection() {
         type={'fill'}
         className={'w-full sm:w-fit mx-auto'}
         label={'Booking Sekarang'}
-        href="https://wa.me/6281215202124"
+        href="https://wa.me/6282299299124"
       />
     </section>
   );
