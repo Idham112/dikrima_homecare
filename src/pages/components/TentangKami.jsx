@@ -7,7 +7,7 @@ import {
   partnerKesehatan,
   testimony,
   tentangKamiTeam,
-} from '../utilties/tentangkami';
+} from '../../utils/tentangkami';
 import Button from '@/components/common/Button';
 
 const TentangKamiPage = () => {
