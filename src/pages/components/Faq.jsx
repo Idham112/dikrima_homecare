@@ -61,8 +61,8 @@ export default function Faq() {
   };
 
   return (
-    <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
-      <h1 className="text-center text-2xl md:text-3xl font-semibold text-[#2d5c50] py-8">
+    <section className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-8">
+      <h1 className="text-center text-2xl md:text-3xl font-semibold text-[#2d5c50] py-4 md:py-8">
         Frequently Asked Question
       </h1>
       <div className="bg-white rounded-lg shadow-sm border border-gray-100">

@@ -23,7 +23,7 @@ const TentangKamiPage = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto flex flex-col lg:flex-row mt-[120px]">
+    <div className="max-w-7xl mx-auto flex flex-col lg:flex-row mt-12 sm:mt-[120px]">
       <div className="text-black basis-full lg:basis-2/3">
         <div className="flex flex-col gap-7 w-full lg:w-[700px] px-4 lg:px-0 text-center lg:text-left">
           <h3 className="text-base text-[#238C7E] font-serif">
@@ -38,7 +38,7 @@ const TentangKamiPage = () => {
             {tentangKami.cont}
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 lg:gap-10 justify-center lg:justify-start mb-20">
+          <div className="flex flex-col sm:flex-row gap-4 lg:gap-10 justify-center lg:justify-start mb-4 sm:mb-20">
             <Button
               href={'#Layanan-Kami'}
               label={'Lihat Layanan Kami'}
@@ -53,19 +53,18 @@ const TentangKamiPage = () => {
             />
           </div>
 
-          <div className="flex flex-col basis-full lg:basis-1/3 mt-20 lg:mt-8 mb-6 ml-0 lg:ml-0 items-center lg:items-end px-4 lg:px-0">
+          <div className="flex flex-col basis-full lg:basis-1/3 mt-8 sm:mt-20 lg:mt-8 mb-6 ml-0 lg:ml-0 items-center lg:items-end px-4 lg:px-0">
             <div className="flex flex-col gap-6 lg:gap-12">
-              <div className="flex flex-row gap-5">
-                <div className="w-[58px] h-[58px] rounded-xl bg-[#F8F7F7] shadow-sm flex items-center justify-center">
-                  <Image
-                    src="/hospice_1.png"
-                    alt="Icon"
-                    width={32}
-                    height={32}
-                  />
-                </div>
-
-                <div>
+              <div className="flex flex-col sm:flex sm:flex-row gap-5">
+                <div className="flex flex-row gap-5 ">
+                  <div className="w-[58px] h-[58px] rounded-xl bg-[#F8F7F7] shadow-sm flex items-center justify-center">
+                    <Image
+                      src="/hospice_1.png"
+                      alt="Icon"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
                   <div className="flex flex-col justify-center w-full max-w-[310px]">
                     <h4 className="text-xl text-[#121212] font-bold font-sans">
                       {patient.number}
@@ -76,7 +75,7 @@ const TentangKamiPage = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-row gap-5">
+                <div className="flex flex-row gap-5 ">
                   <div className="w-[58px] h-[58px] rounded-xl bg-[#F8F7F7] shadow-sm flex items-center justify-center">
                     <Image
                       src="/hospice_1.png"
@@ -100,8 +99,8 @@ const TentangKamiPage = () => {
         </div>
       </div>
 
-      <div className="mt-20 flex justify-center">
-        <div className="relative w-[400px] h-[600px] overflow-hidden rounded-lg">
+      <div className="mt-8 flex justify-center">
+        <div className="relative w-[400px] h-[480px] overflow-hidden rounded-lg">
           {/* Image container with smooth sliding transition */}
           <div
             className="flex transition-transform duration-500 ease-in-out h-full"

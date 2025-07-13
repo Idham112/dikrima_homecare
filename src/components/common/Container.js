@@ -5,7 +5,7 @@ function Container({ children }) {
   return (
     <div
       className={
-        'w-full bg-light-green px-4 pb-[180px] relative overflow-hidden rounded-bl-4xl rounded-br-4xl'
+        'w-full bg-light-green px-4 pb-[80px] sm:pb-[180px] relative overflow-hidden rounded-bl-4xl rounded-br-4xl'
       }
     >
       {children}

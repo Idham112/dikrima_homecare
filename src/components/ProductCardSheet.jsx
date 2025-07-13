@@ -10,7 +10,9 @@ function ProductCardSheet({ productName, price }) {
       <p className="text-[#121212] text-[16px]">
         Rp{price.toLocaleString('id-ID')}
       </p>
-      <Button type={'text'} href={'#'} size={'sm'} label={'Pesan Sekarang'} />
+      <div>
+        <Button type={'text'} href={'#'} size={'sm'} label={'Pesan Sekarang'} />
+      </div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { Separator } from '@/components/ui/separator';
 import { linkList } from '@/utils/constant';
 
 const proofContent = [
-  { title: '200+', description: 'Pasien Telah Kami Layani' },
+  { title: '10.000+', description: 'Pasien Telah Kami Layani' },
   {
     title: 'Sejak 2019',
     description: 'Berpengalaman Memberikan Layanan Homecare',

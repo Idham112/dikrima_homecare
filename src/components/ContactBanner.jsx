@@ -3,7 +3,7 @@ import Button from './common/Button';
 
 export default function ContactBanner() {
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6 py-6 mt-30">
+    <section className="mx-auto max-w-7xl px-4 sm:px-6 py-6 mt-4 sm:mt-30">
       <div className="bg-[#2d5c50] rounded-lg shadow-xl overflow-hidden">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 lg:gap-12 p-6 md:p-8">
           <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-6">
